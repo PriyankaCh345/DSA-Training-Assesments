@@ -1,3 +1,4 @@
+package LinkedList;
 
 class ListNode {
 
@@ -35,6 +36,7 @@ public class reverseLinkedList {
         reverseLinkedList obj = new reverseLinkedList();
 
         ListNode ans = obj.reverseList(head);
+
 
         while (ans != null) {
             System.out.print(ans.val + " ");
